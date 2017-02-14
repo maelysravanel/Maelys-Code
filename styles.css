@@ -1,13 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
+	/* GH */
 
 body {
-	background-image: url("images/fondmotif.png");
+	/*background-image: url("images/fondmotif.png");*/
 	background-size:cover;                   /* <------ */
     background-repeat:no-repeat;
    /* background-position: center center*/
    /*marges sur toute la page gauche et droite*/
    margin-top:50px;margin-left:20px;margin-right: 20px;
+   background-color: #FAFAFA
 }
 
 
