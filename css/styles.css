@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("images/shakespeare.jpg");
+	background-size:cover;                   /* <------ */
+    background-repeat:no-repeat;
+   /* background-position: center center*/
+}
+
+
+
+
+h1 {
+	margin-top:50px;margin-left:20px;
+	font-family:nunito-regular;
+	font-size:14px;
+}
+
+
+
+
+
+#footer1 {
+	text-align:center;
+	background-image: url("images/fondmotif.png");
+	background-size: 100px 100px;
+	background-repeat:repeat-10;
+	background-color: rgba(255,255,255,0.5); 
+	
+}
+
+#footer1 p{
+	color:#070B6E;
+  	font-size:12px;font-family:'Roboto Mono',monospace;
+}
+	
+
+

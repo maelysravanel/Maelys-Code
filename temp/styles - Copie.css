@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("images/055.JPG");
+	background-size:cover;                   /* <------ */
+    background-repeat:no-repeat;
+   /* background-position: center center*/
+}
+
+/*#section h1, h2{
+	line-height: 1.45;
+	line-height: 1; 
+}*/
+
+
+#section1 h1 {
+  color:#070B6E;font-family: 'Josefin Slab',serif; line-height:1.2;
+  display:online;
+  font-size:15px;
+  class:"text-center"
+}
+
+#section1 h2 {
+  color:#070B6E;
+  font-size:12px;font-family:'Roboto Mono',monospace; 
+
+}
+
+
+.container{width:780px;margin:auto;}
+
+.navbar {
+  position:relative;
+  min-height:50px;
+  margin-bottom:20px;
+  border:3px solid transparent;
+  font-family:'Roboto Mono',monospace;
+  color:#070B6E;
+}
+
+
+
+
+#section2 p1{
+	padding-right:3cm;
+	padding-left:2cm;
+	font-family: 'Roboto Mono', monospace;
+	color:#070B6E;
+
+}
+
+#section3 {
+	text-align: center;
+	margin-left: -80 px; 
+	margin-right: -80 px;
+}
+
+#video1 {
+	/*width: 50%;
+	height: 50%;*/
+}
+
+
+.pager a{
+	color:#070B6E;
+ 	font-size:12px;font-family:'Roboto Mono',monospace;
+	background: transparent;
+	position: relative;
+}
+
+.Retour a {
+	background: linear-gradient(rgba(60,27,177,0), rgba(60,27,177,0.2));
+}
+
+.Suivant a {
+	background: linear-gradient(rgba(60,27,177,0), rgba(60,27,177,0.2));
+}
+
+#footer1 {
+	text-align:center;
+	background-image: url("images/fondmotif.png");
+	background-size: 100px 100px;
+	background-repeat:repeat-10;
+	background-color: rgba(255,255,255,0.5); 
+	
+}
+
+#footer1 p{
+	color:#070B6E;
+  	font-size:12px;font-family:'Roboto Mono',monospace;
+}
